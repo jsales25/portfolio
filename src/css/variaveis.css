@@ -1,15 +1,15 @@
 :root {
     --cor-primaria: rgb(255, 2, 141);
-    --cor-secundaria: rgb(255, 200, 0);    
+    --cor-secundaria: #199668;    
     --cor-branca: #fff;
     --cor-fundo-escuro: #040203;    
-    --cor-fundo-cinza-escuro: #282828;
+    --cor-fundo-cinza-escuro: #191622;
     --cor-fundo-cinza-claro: #353535;    
   }
     
   :root {
-    --fonte-primaria: 'Poppins', sans serif;
-    --fonte-secundaria: 'Raleway', sans serif;
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Raleway', sans-serif;
     --fonte-gigante: 4.5rem;
     --fonte-extra-grande: 3rem;
     --fonte-grande: 2.4rem;
