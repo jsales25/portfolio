@@ -1,242 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julia Sales - Desenvolvedora Frontend</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Julia Sales - Desenvolvedora Frontend</title>
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
 
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-  
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/secoes/header.css" />
-  <link rel="stylesheet" href="src/css/secoes/home.css" />
-  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
-  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+  </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">JS</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
-
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
-            </div>
-          </label>
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-          <p>Olá!</p>
-          <h1>Sou a Julia Sales</h1>
-          <h2>Desenvolvedora Frontend</h2>
-
-          <div class="redes-sociais">
-            <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="./src/imagens/foto-perfil.jpg" alt="foto do perfil da Julia" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="imagem-sobre-mim">
-          <div class="img-box inner-shadow">
-            <img src="./src/imagens/foto-sobre-mim.jpg" alt="foto sobre mim" class="outer-shadow" />
-          </div>
-        </div>
-        <div class="informacoes-sobre-mim">
-          <p>
-            <strong>Olá! Me chamo Julia Sales e sou uma desenvolvedora frontend em
-              formação!</strong>
-              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
-          </p>
-
-          <p>
-           Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
-          </p>
-
-          <p>
-            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜
-          </p>
-
-          <div class="botoes">
-            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Habilidades</h2>
-        </div>
-      </div>
-
-      <div class="container-habilidades">
-        <div class="informacoes javascript">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain" id="javascript"></i>
-          </div>
-          <h3>JavaScript</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-
-        <div class="informacoes html">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
-          </div>
-          <h3>HTML5</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-
-        <div class="informacoes css">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
-          </div>
-          <h3>CSS3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-
-        <div class="informacoes github">
-          <div class="logo">
-            <i class="devicon devicon-github-original" id="github"></i>
-          </div>
-          <h3>GitHub</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-
-        <div class="informacoes git">
-          <div class="logo">
-            <i class="devicon devicon-git-plain" id="git"></i>
-          </div>
-          <h3>Git</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Meus projetos</h2>
-        </div>
-      </div>
-
-      <div class="container-projetos">
-        <div class="projeto">        
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto 1</h3>
-            <div class="informacoes-projeto">          
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>     
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">JS</h1>
           </a>
-        </div>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
 
-        <div class="projeto">        
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto 2</h3>
-            <div class="informacoes-projeto">          
-              <p>Lorem ipsum</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>      
-          </a>          
-        </div>
-
-        <div class="projeto">     
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto 3</h3>
-            <div class="informacoes-projeto">
-              <p>Lorem ipsum</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>   
-        </div>
-
-        <div class="projeto">
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto 4</h3>
-            <div class="informacoes-projeto">
-              <p>Lorem ipsum</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <footer class="footer">
-    <div class="container">
-      <h2>Me envie uma mensagem!</h2>
-      <div class="redes-sociais">
-        <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá!</p>
+            <h1>Sou a Julia Sales</h1>
+            <h2>Desenvolvedora Frontend</h2>
+
+            <div class="redes-sociais">
+              <a href="#" class="outer-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="outer-shadow"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+              <a href="#" class="outer-shadow"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                class="outer-shadow"
+                src="./src/imagens/foto-perfil.jpg"
+                alt="foto do perfil da Julia"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="imagem-sobre-mim">
+            <div class="img-box inner-shadow">
+              <img
+                src="./src/imagens/foto-sobre-mim.jpg"
+                alt="foto sobre mim"
+                class="outer-shadow"
+              />
+            </div>
+          </div>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong
+                >Olá! Sou Julia Sales, formada em Direito e atualmente em
+                transição de carreira para a área de tecnologia, setor pelo qual
+                sou profundamente apaixonada.</strong
+              >
+              Estou no início dos meus estudos, em nível júnior, cursando uma
+              formação completa que abrange desde o Frontend até o Backend –
+              atualmente focada em HTML, CSS e JavaScript. Busco constantemente
+              novos conhecimentos e experiências que possam ampliar minhas
+              habilidades técnicas e criativas.
+            </p>
 
+            <p>
+              Sou uma pessoa criativa e detalhista, sempre atenta para que cada
+              projeto desenvolvido seja funcional, esteticamente agradável e
+              totalmente responsivo. Além disso, acredito que a tecnologia
+              oferece liberdade e a possibilidade de acompanhar as mudanças que
+              moldam o futuro.
+            </p>
+
+            <p>
+              Fora do mundo do código, adoro teatro, filmes, séries, viagens,
+              experiências culturais, como visitas a museus e exposições de
+              arte, que também inspiram minha forma de criar.
+            </p>
+
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="/src/arquivos/cv.pdf"
+                class="botao outer-shadow"
+                >Veja meu Currículo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="container-habilidades">
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>
+              Utilizo HTML5 para estruturar páginas de forma semântica,
+              organizada e acessível. Tenho atenção aos elementos corretos para
+              melhorar SEO, acessibilidade e desempenho, garantindo uma base
+              sólida para qualquer projeto web. Busco sempre aplicar boas
+              práticas e padrões modernos no desenvolvimento.
+            </p>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>
+              Com CSS3, sou capaz de criar estilos personalizados, responsivos e
+              visualmente atrativos. Trabalho com posicionamento, animações e
+              transições para deixar as interfaces mais fluidas e dinâmicas.
+              Também foco em boas práticas de design, proporcionando uma
+              experiência agradável para o usuário.
+            </p>
+          </div>
+
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>
+              Possuo conhecimentos iniciais em JavaScript, linguagem essencial
+              para criar interatividade e dinamismo em páginas web. Estou
+              aprendendo conceitos fundamentais como manipulação do DOM, eventos
+              e lógica de programação, visando desenvolver aplicações mais
+              funcionais e intuitivas. Meu objetivo é evoluir para o uso de
+              frameworks e bibliotecas no futuro.
+            </p>
+          </div>
+
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>
+              Utilizo GitHub como plataforma para armazenar, versionar e
+              compartilhar projetos. Tenho familiaridade com repositórios,
+              commits e branches, entendendo sua importância para o trabalho
+              colaborativo e controle de versões no desenvolvimento de software.
+            </p>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+            <p>
+              Conheço os comandos básicos do Git para versionamento e
+              organização de código. Sei iniciar repositórios, realizar commits,
+              trabalhar com branches e manter um histórico confiável de
+              mudanças, garantindo segurança no desenvolvimento e integração
+              contínua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
+          </div>
+        </div>
+
+        <div class="container-projetos">
+          <div class="projeto">
+            <a href="https://github.com">
+              <img
+                src="https://via.placeholder.com/515X700"
+                alt="Nome do projeto"
+              />
+              <h3>Projeto 1</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://github.com">
+              <img
+                src="https://via.placeholder.com/515X700"
+                alt="Nome do projeto"
+              />
+              <h3>Projeto 2</h3>
+              <div class="informacoes-projeto">
+                <p>Lorem ipsum</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://github.com">
+              <img
+                src="https://via.placeholder.com/515X700"
+                alt="Nome do projeto"
+              />
+              <h3>Projeto 3</h3>
+              <div class="informacoes-projeto">
+                <p>Lorem ipsum</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://github.com">
+              <img
+                src="https://via.placeholder.com/515X700"
+                alt="Nome do projeto"
+              />
+              <h3>Projeto 4</h3>
+              <div class="informacoes-projeto">
+                <p>Lorem ipsum</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a href="#" class="outer-shadow"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+          <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
