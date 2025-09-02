@@ -8,8 +8,7 @@
     color: var(--cor-branca);
     border: 2px solid var(--cor-branca);
     /* border-radius: 50%; */
-    border-top-left-radius: 35%;
-    border-bottom-right-radius: 35%;
+    border-radius: 35% 0;
 
     width: 65px;
     height: 65px;
