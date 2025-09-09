@@ -7,9 +7,7 @@
     font-size: var(--fonte-extra-grande);
     color: var(--cor-branca);
     border: 2px solid var(--cor-branca);
-    /* border-radius: 50%; */
     border-radius: 35% 0;
-
     width: 65px;
     height: 65px;
     line-height: 55px;
@@ -131,8 +129,10 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--cor-fundo-escuro);         
-        padding: 20px;       
+        background-color: var(--cor-fundo-principal);        
+        padding: 20px;     
+        border-radius: 20% 0; 
+        border: 1px solid var(--cor-borda-header); 
     }
     
     .header nav li a {
