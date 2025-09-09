@@ -31,6 +31,10 @@
     margin-bottom: 20px;
 }
 
+.botao {
+    border-radius: 20px 0;
+}
+
 @media(max-width: 1280px) { 
     .sobre-mim .row{
         justify-content: center;
