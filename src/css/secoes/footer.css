@@ -40,7 +40,7 @@
     color: var(--cor-primaria);
 }
 
-@media (max-width: 495px) {
+@media (max-width: 512px) {
     .footer nav ul {
     display: flex;
     flex-direction: column;
