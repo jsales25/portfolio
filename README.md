@@ -29,7 +29,7 @@ Projetos destacados dentro do portfólio incluem também:
 ---
 
 ## 🚀 Acesse o portfólio
-🔗 [Clique aqui para visualizar meu portfólio online](#)  
+🔗 [Clique aqui para visualizar meu portfólio online](https://jsales25.github.io/portfolio/)  
 
 ---
 
