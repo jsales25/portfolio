@@ -28,15 +28,4 @@ Projetos destacados dentro do portfólio incluem também:
 
 ---
 
-## 🚀 Acesse o portfólio
-🔗 [Clique aqui para visualizar meu portfólio online](https://jsales25.github.io/portfolio/)  
-
----
-
-## 📫 Contato 
-- 💼 [LinkedIn](https://www.linkedin.com/in/julia-sales-developer/)  
-- 🐙 [GitHub](https://github.com/jsales25)  
-
----
-
 ✨ *Portfólio criado com dedicação para apresentar minha jornada e evolução na área de tecnologia.*
